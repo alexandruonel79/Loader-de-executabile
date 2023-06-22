@@ -10,7 +10,7 @@ Initial: mi am creat file descriptorul si mi am alocat vectorul vPagini cu
 dimensiunea tuturor paginilor pe care le am calculat parcurgand fiecare segment 
 si adunand memsize ul impartit la lungimea unei pagini.
 
-	Primul pas a fost sa vad daca sunt pe segmentul bun, deci am parcurs toate 
+Primul pas a fost sa vad daca sunt pe segmentul bun, deci am parcurs toate 
 segmentele printr un for si verificam daca si_addr se incadreaza in limitele 
 segmentului.
 	Ulterior am cautat pagina deoarece stiam deja ca si_addr apartine acestui 
